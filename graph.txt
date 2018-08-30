@@ -1,0 +1,208 @@
+digraph G {
+	1[label = Program]
+	2[label = Statement 3]
+	3[label = Statement 3]
+	4[label = Statement 3]
+	5[label = Statement 3]
+	6[label = Statement 3]
+	7[label = Statement 1]
+	8[label = Assign statement]
+	9[label = Assign value]
+	10[label = x]
+	9->10
+	11[label = Assign]
+	12[label = =]
+	11->12
+	9->11
+	13[label = Number]
+	14[label = Float]
+	15[label = 35.12]
+	14->15
+	13->14
+	9->13
+	8->9
+	7->8
+	6->7
+	16[label = Assign statement]
+	17[label = Assign value]
+	18[label = y]
+	17->18
+	19[label = Assign]
+	20[label = =]
+	19->20
+	17->19
+	21[label = Number]
+	22[label = Float]
+	23[label = 10.3]
+	22->23
+	21->22
+	17->21
+	16->17
+	6->16
+	5->6
+	24[label = Assign statement]
+	25[label = Assign value]
+	26[label = n]
+	25->26
+	27[label = Assign]
+	28[label = =]
+	27->28
+	25->27
+	29[label = Number]
+	30[label = Integer]
+	31[label = 8]
+	30->31
+	29->30
+	25->29
+	24->25
+	5->24
+	4->5
+	32[label = Function call statement]
+	33[label = Function call]
+	34[label = print]
+	33->34
+	35[label = Function call argument]
+	36[label = Number]
+	37[label = Variable]
+	38[label = x]
+	37->38
+	36->37
+	35->36
+	33->35
+	32->33
+	4->32
+	3->4
+	39[label = Function call statement]
+	40[label = Function call]
+	41[label = print]
+	40->41
+	42[label = Function call argument]
+	43[label = Number]
+	44[label = Variable]
+	45[label = y]
+	44->45
+	43->44
+	42->43
+	40->42
+	39->40
+	3->39
+	2->3
+	46[label = Function call statement]
+	47[label = Function call]
+	48[label = print]
+	47->48
+	49[label = Function call argument]
+	50[label = Number]
+	51[label = Integer]
+	52[label = 8]
+	51->52
+	50->51
+	49->50
+	47->49
+	46->47
+	2->46
+	1->2
+	53[label = Program]
+	54[label = Statement 3]
+	55[label = Statement 3]
+	56[label = Statement 3]
+	57[label = Statement 3]
+	58[label = Statement 3]
+	59[label = Statement 1]
+	60[label = Assign statement]
+	61[label = Assign value]
+	62[label = x]
+	61->62
+	63[label = Assign]
+	64[label = =]
+	63->64
+	61->63
+	65[label = Number]
+	66[label = Float]
+	67[label = 35.12]
+	66->67
+	65->66
+	61->65
+	60->61
+	59->60
+	58->59
+	68[label = Assign statement]
+	69[label = Assign value]
+	70[label = y]
+	69->70
+	71[label = Assign]
+	72[label = =]
+	71->72
+	69->71
+	73[label = Number]
+	74[label = Float]
+	75[label = 10.3]
+	74->75
+	73->74
+	69->73
+	68->69
+	58->68
+	57->58
+	76[label = Assign statement]
+	77[label = Assign value]
+	78[label = n]
+	77->78
+	79[label = Assign]
+	80[label = =]
+	79->80
+	77->79
+	81[label = Number]
+	82[label = Integer]
+	83[label = 8]
+	82->83
+	81->82
+	77->81
+	76->77
+	57->76
+	56->57
+	84[label = Function call statement]
+	85[label = Function call]
+	86[label = print]
+	85->86
+	87[label = Function call argument]
+	88[label = Number]
+	89[label = Variable]
+	90[label = x]
+	89->90
+	88->89
+	87->88
+	85->87
+	84->85
+	56->84
+	55->56
+	91[label = Function call statement]
+	92[label = Function call]
+	93[label = print]
+	92->93
+	94[label = Function call argument]
+	95[label = Number]
+	96[label = Variable]
+	97[label = y]
+	96->97
+	95->96
+	94->95
+	92->94
+	91->92
+	55->91
+	54->55
+	98[label = Function call statement]
+	99[label = Function call]
+	100[label = print]
+	99->100
+	101[label = Function call argument]
+	102[label = Number]
+	103[label = Integer]
+	104[label = 8]
+	103->104
+	102->103
+	101->102
+	99->101
+	98->99
+	54->98
+	53->54
+	}
